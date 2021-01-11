@@ -1,0 +1,12 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "description": "...",
+  "main": "index.js",
+  "author": "tian <istiancz@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
