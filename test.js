@@ -13,7 +13,10 @@ connection.query('CREATE DATABASE IF NOT EXISTS mydbs DEFAULT CHARSET utf8mb4 CO
     console.log('The solution is: ', results);
 });
 connection.query('use mydbs')
-connection.query('CREATE TABLE IF NOT EXISTS user', function (error, results, fields) {
+connection.query(`CREATE TABLE IF NOT EXISTS user(
+    name text,
+    age int
+)`, function (error, results, fields) {
     if (error) throw error;
     fields: {
         name: "2"
